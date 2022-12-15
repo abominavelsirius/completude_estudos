@@ -1,0 +1,30 @@
+body {
+    background-image: url(./back.png);
+    color: white;
+}
+
+p {
+    text-align: center;
+}
+
+.grade1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.grade2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box {
+    border: 1px solid black;
+    background: red;
+    height: 300px;
+    width: 350px;
+    margin: 50px 30px;
+
+
+}
