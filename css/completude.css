@@ -5,19 +5,20 @@ body {
 
 .tempEstudo .container {
     display: flex;
+    align-items: cener;
+    width: 1500px; 
+    margin: 0 auto;
+    flex-wrap: wrap;;
 }
 
-.listItem {
+.tempEstudo .container li {
     width: 200px;
     height: 200px;
     border: 1px solid rgb(201, 201, 201);
-}
-
-
-
-li {
     list-style: none;
 }
+
+
 
 
 
