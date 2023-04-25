@@ -1,16 +1,12 @@
 * {
     padding: 0;
     margin: 0;
+    background: rgb(65, 65, 65);
 }
 
 
 
-.profile_content {
-    background-color: black;
-}
-
-.profile_content_inner {
-    background: rgb(72, 72, 85);
+.principal {
     padding: 12px 12px 64px 12px;
     width: 952px;
     margin: 0 auto;
@@ -18,38 +14,32 @@
 
 
 
-.profile_leftcol {
-    width: 652px;
-    float: left;
-    display: flex;
-    
+.bloco-do-mes {
+    background: rgb(80, 80, 97);
+    width: 940px;
 }
 
-.profile_rightcol {
-    padding: 10px;
-    border-radius: 3px;
-    width: 268px;
-    float: right;
-    background: rgb(54, 54, 54);
-    height: 500px;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-around;
-    align-items: center;
+.bloco-titulo {
+    padding: 20px;
 }
-
-
-
-
-
 
 .bloco-foto {
     width: 130px;
 }
 
+.bloco-hora {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bloco-progresso {
+    
+}
 
 .bloco-conquistas {
-
+    display: flex;
+    justify-content: flex-end;
 }
 
 .conquista-icon {
