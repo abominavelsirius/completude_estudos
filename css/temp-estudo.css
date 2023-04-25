@@ -5,15 +5,43 @@
 
 
 
-
-
-.bloco-do-mes {
-    background: grey;
+.profile_content {
+    background-color: black;
 }
 
-.conquistas {
-    width: 500px;
-    display: flex;
+.profile_content_inner {
+    background: rgb(72, 72, 85);
+    padding: 12px 12px 64px 12px;
+    width: 952px;
+    margin: 0 auto;
+}
+
+
+
+.profile_leftcol {
+    width: 652px;
+    float: left;
+}
+
+.profile_rightcol {
+    padding: 10px;
+    border-radius: 3px;
+    width: 268px;
+    float: right;
+}
+
+
+
+
+
+
+.bloco-foto {
+    width: 130px;
+}
+
+
+.bloco-conquistas {
+
 }
 
 .conquista-icon {
