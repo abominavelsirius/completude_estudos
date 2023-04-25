@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+.bloco-do-mes {
+    background: grey;
+}
+
+.conquistas {
+    width: 500px;
+    display: flex;
+}
+
+.conquista-icon {
+    width: 50px;
+}

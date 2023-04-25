@@ -3,6 +3,8 @@ body {
     color: white;
 }
 
+
+
 .tempEstudo .container {
     display: flex;
     align-items: cener;
@@ -18,6 +20,11 @@ body {
     list-style: none;
 }
 
+
+.listItem {
+    width: 100px;
+    display: flex;
+}
 
 
 
