@@ -2,10 +2,52 @@
     padding: 0;
     margin: 0;
     background: rgb(65, 65, 65);
+    
+}
+
+/* background: linear-gradient(27deg, rgba(2,0,36,1) 33%, rgba(15,51,77,1) 58%, rgba(29,106,121,1) 84%); */
+
+.recent_game {  
+    backdrop-filter: blur(20px);
+    background-color: rgba( 0, 0, 0, 0.3 );
+    border-radius: 3px;
+    margin-bottom: 21px;
+    width: 651.99px;
+    height: 145.43px;
+}
+
+.recent_game_content {
+    padding: 8px 10px;
+    background-color: rgba( 0, 0, 0, 0.3 );
+}
+
+.recent_game .game_info {
+    position: relative;
+    height: 69px;
+    background-color: rgba( 0, 0, 0, 0.3 );
+}
+
+.recent_game .game_info_status {
+    padding: 9px 11px 10px;
+    background-color: rgba(34, 35, 48, 0.93);
+    border-radius: 3px;
+    margin-top: 9px;
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* 
 .principal {
     padding: 12px 12px 64px 12px;
     width: 952px;
@@ -15,12 +57,14 @@
 
 
 .bloco-do-mes {
-    background: rgb(80, 80, 97);
+    background: linear-gradient(27deg, rgba(2,0,36,1) 33%, rgba(15,51,77,1) 58%, rgba(29,106,121,1) 84%);
     width: 940px;
+    
 }
 
-.bloco-titulo {
+.a {
     padding: 20px;
+    color: white;
 }
 
 .bloco-foto {
@@ -29,6 +73,7 @@
 
 .bloco-hora {
     padding: 20px;
+    background: #5D737E;
     display: flex;
     justify-content: flex-end;
 }
@@ -43,5 +88,6 @@
 }
 
 .conquista-icon {
-    width: 50px;
-}
+    width: 50px; 
+    }
+    */
