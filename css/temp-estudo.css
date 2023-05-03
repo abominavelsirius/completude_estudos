@@ -7,6 +7,32 @@
 
 /* background: linear-gradient(27deg, rgba(2,0,36,1) 33%, rgba(15,51,77,1) 58%, rgba(29,106,121,1) 84%); */
 
+.profile_content {
+    margin: 0 auto;
+    width: 952px;
+    padding: 12px 12px 64px 12px;
+    background-repeat: no-repeat;
+    background-color: rgba(34, 35, 48, 0.93);
+    position: relative;
+}
+
+.profile_content_inner {
+    position: relative;
+}
+
+.profile_rightcol {
+    background-color: rgba( 0, 0, 0, 0.3 );
+    padding: 10px;
+    border-radius: 3px;
+    width: 268px;
+    float: right;
+}
+
+.profile_leftcol {
+    width: 652px;
+    float: left;
+}
+
 .recent_game {  
     backdrop-filter: blur(20px);
     background-color: rgba( 0, 0, 0, 0.3 );
